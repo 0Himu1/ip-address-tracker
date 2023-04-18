@@ -15,7 +15,6 @@ export default function App() {
 		setUserIpAddress(json.ip);
 	};
 
-	console.log(import.meta.env.VITE_API_KEY);
 	const fetchData = async () => {
 		const res = await fetch(
 			`https://geo.ipify.org/api/v2/country,city,vpn?apiKey=${apiKey}&ipAddress=${userIpAddress}`
