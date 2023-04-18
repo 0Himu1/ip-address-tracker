@@ -52,7 +52,7 @@ export default function App() {
 
 	return (
 		<main className="flex flex-col h-screen w-screen overflow-hidden">
-			<div className="top-part p-8 pb-24 md:pb-12 bg-image text-white relative">
+			<div className="p-8 pb-24 md:pb-12 bg-cyan-500 text-white relative">
 				<h1 className="font-bold text-3xl text-center mb-5">
 					IP Address Tracker
 				</h1>
