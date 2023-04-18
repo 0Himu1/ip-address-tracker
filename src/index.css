@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-image {
+	background: url(./pattern-bg-desktop.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* sizing map container */
+.leaflet-container {
+	height: 100%;
+}
